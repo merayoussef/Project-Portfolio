@@ -1,12 +1,11 @@
-##The purpose of this project is to showcase my portfolio. This project will include: contact information, experience, education and projects I have completed.
+## The purpose of this project is to showcase my portfolio. This project will include: contact information, experience, education and projects I have completed.
 
-##URL: https://merayoussef.github.io/Project-Portfolio
+## URL: https://merayoussef.github.io/Project-Portfolio
 
-##Repo:https://github.com/merayoussef/Project-Portfolio.git
+## Repo:https://github.com/merayoussef/Project-Portfolio.git
 
-## Acceptance Criteria
+## Acceptance Criteria 
 
-```
 GIVEN I need to sample a potential employee's previous work
 WHEN I load their portfolio
 THEN I am presented with the developer's name, a recent photo, and links to sections about them, their work, and how to contact them
@@ -20,4 +19,3 @@ WHEN I click on the images of the applications
 THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
-```
