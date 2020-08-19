@@ -206,32 +206,3 @@ header nav ul li a {
     font-style: italic;
     font-size: 30px;
 }
-.horiseon.grid-item img {
-    max-width: 100%;
-    height: auto;
-}
-
-.run-buddy.grid-item li img {
-    width: 64%;
-    height: auto;
-}
-
-div.future-project2.grid-item>li>img {
-    width: 100%;
-    height: auto;
-}
-
-div.future-project2.grid-item>li {
-    background-color: grey;
-    padding: 0px;
-}
-
-.future-project3.grid-item>li>img {
-    object-fit: cover;
-    width: 129px;
-    height: 197px;
-}
-
-div.future-project2.grid-item {
-    background-color: black;
-}
