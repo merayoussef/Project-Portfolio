@@ -162,7 +162,7 @@ header nav ul li a {
 .label-box1 {
     background-color: var(--teritary);
     top: 290px;
-    left: -110px;
+    left: -40px;
     width: 200px;
     height: 80px;
     position: relative;
@@ -208,8 +208,6 @@ header nav ul li a {
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(../images/runbuddy.PNG);
-    padding: 70px ;
-    
 }
 
 .horiseon {
