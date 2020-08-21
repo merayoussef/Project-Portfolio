@@ -308,16 +308,12 @@ header nav ul li a {
 
     .title-background {
     align-content: center;
-    margin-bottom: 100px;
+    margin-bottom: 40px;
     }
     
     .about-me {
         flex-wrap: wrap;
 
-    }
-
-    .me-par {
-        margin-top: -50px;
     }
 
     .work {
@@ -330,7 +326,7 @@ header nav ul li a {
     .work-grid-container {
         justify-content: center;
         flex-wrap: wrap;
-        margin-bottom: 100px;
+        margin-top: 80px;
        
     }
 
@@ -350,59 +346,203 @@ header nav ul li a {
 
     .section-title {
         border: none;
+        text-align: center;
 
     }
     .section-title > h2 {
         text-align: center;
         width: 350%;
-        margin-top: -100px;
+        text-decoration: underline;
+
+    }
+}
+
+
+  /* MEDIA QUERY FOR TABLETS AND SMALLER */
+  @media screen and (max-width: 768px) {
+  * {
+    margin-right: -40px;
+    margin-left: -5px;
+    
+    }
+
+    header {
+      padding-bottom: 0;
+      justify-content: center;
+      position: relative;
+    }
+  
+    header h1 {
+      width: 100%;
+      text-align: center;
+      margin-right: -20px;
+    }
+  
+    header nav ul {
+      margin-top: 20px;
+      width: 100%;
+
+    }
+  
+    header nav ul li a {
+      font-size: 20px;
+      padding: 50px 50px;
+      
+    }
+
+    .title-background {
+    align-content: center;
+    margin-bottom: 40px;
+    }
+    
+    .about-me {
+        flex-wrap: wrap;
+
+    }
+
+    .work {
+      align-content: center;
+      justify-content: center;
+      
+    }
+    
+    .work-grid-container {
+        justify-content: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .run-buddy, .horiseon, .future-project1, .future-project2, .future-project3 {
+        opacity: 1;
+        margin: 2px;
+        
+    }
+
+    .label-box1, .label-box2, .label-box3 {
+        margin-left: 6px;
+    }
+
+    .label-box4, .label-box5 {
+        margin-left: 5px;
+       
+       
+    }
+    .contact-me {
+      flex-wrap: wrap;
+     
+    }
+
+    .contact-par {
+        display: list-item;
+        list-style-type: none;
+        padding-top: 100px;
+    }
+
+    .contact-par > ul a {
+       font-size: 25px;
+      
+    }
+
+    .section-title {
+        border: none;
+        text-align: center;
+
+    }
+    .section-title > h2 {
+        text-align: center;
         text-decoration: underline;
 
     }
 
-    .section-work > h2 {
-    }
 }
 
-
-  
-
-  /* MEDIA QUERY FOR TABLETS AND SMALLER */
-  @media screen and (max-width: 768px) {
-   section {
-     padding: 30px 15px;
-   }
-  
-   .work-grid-container {
-    grid-template-columns: 1fr 1fr;
-  }
-  
-  
-  .grid-item {
-    grid-column: 1 / -1;
-  }
-}
   
   /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
   @media screen and (max-width: 575px) {
 
-    .section-title {
-      width: 95%;
+    * {
+        margin: -200px;
+        width: 100%;
+        
+        }
+    
+        header {
+          padding-bottom: 0;
+          justify-content: center;
+          position: relative;
+        }
+      
+        header h1 {
+          width: 100%;
+          text-align: center;
+          margin-right: -20px;
+        }
+      
+        header nav ul {
+          margin-top: 20px;
+          width: 100%;
+    
+        }
+      
+        header nav ul li a {
+          font-size: 20px;
+          padding: 50px 50px;
+          
+        }
+    
+        .title-background {
+        align-content: center;
+        margin-bottom: 40px;
+        }
+        
+        .about-me {
+            flex-wrap: wrap;
+    
+        }
+    
+        .work {
+          align-content: center;
+          justify-content: center;
+          
+        }
+        
+        .work-grid-container {
+            justify-content: center;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+    
+        .run-buddy, .horiseon, .future-project1, .future-project2, .future-project3 {
+            opacity: 1;
+            margin: .2px;
+            
+        }
+    
+        .contact-me {
+          display: inline-block;
+         
+        }
+    
+        .contact-par {
+            padding-top: 50px;
+            display: list-item;
+        }
+    
+        .contact-par > ul a {
+           font-size: 25px;
+           align-content: center;
+        }
+    
+        .section-title {
+            border: none;
+            text-align: center;
+    
+        }
+        .section-title > h2 {
+            text-align: center;
+            text-decoration: underline;
+    
+        }
+
     }
-  
-   .work::after {
-     display: none;
-   }
-  
-    .work {
-      flex: 0 100%;
-    }
-  
-    .contact-me {
-      text-align: left;
-    }
-  
-    .contact-me > * {
-      flex: 0 100%;
-    }
-  }
+    
