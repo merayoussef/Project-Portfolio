@@ -162,7 +162,7 @@ header nav ul li a {
 .label-box1 {
     background-color: var(--teritary);
     top: 290px;
-    left: -168px;
+    left: -110px;
     width: 200px;
     height: 80px;
     position: relative;
@@ -208,9 +208,7 @@ header nav ul li a {
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(../images/runbuddy.PNG);
-    padding: 128px ;
-    width: 45%;
-    
+    padding: 70px ;
     
 }
 
@@ -221,8 +219,6 @@ header nav ul li a {
     background-size: cover;
     background-image: url(../images/horiseon.PNG);
     padding: 100px ;
-    margin-left: -320px;
-    margin-right: 450px;
 }
 
 .future-project1 {
@@ -232,8 +228,7 @@ header nav ul li a {
     background-size: cover;
     background-repeat: no-repeat;
     padding: 100px;
-    margin-left: -320px;
-    margin-right: 450px;
+    
 
 }
 
@@ -243,8 +238,6 @@ header nav ul li a {
     background-image: url(../images/future.png);
     background-size: cover;
     background-repeat: no-repeat;
-    margin-right: 175px;
-    
 }
 
 .future-project3 {
@@ -253,8 +246,6 @@ header nav ul li a {
     background-image: url(../images/future.png);
     background-size: cover;
     background-repeat: no-repeat;
-    margin-left: -170px;
-    margin-right: 330px;
 }
 
 /* contact me starts here */
