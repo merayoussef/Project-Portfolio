@@ -461,8 +461,8 @@ header nav ul li a {
   @media screen and (max-width: 575px) {
 
     * {
-        margin: -200px;
         width: 100%;
+        font-size: 20px;
         
         }
     
@@ -491,24 +491,16 @@ header nav ul li a {
         }
     
         .title-background {
-        align-content: center;
         margin-bottom: 40px;
         }
         
         .about-me {
-            flex-wrap: wrap;
+            display: inline;;
     
-        }
-    
-        .work {
-          align-content: center;
-          justify-content: center;
-          
         }
         
         .work-grid-container {
-            justify-content: center;
-            flex-wrap: wrap;
+            flex-flow: flex;
             justify-content: space-between;
         }
     
@@ -524,7 +516,7 @@ header nav ul li a {
         }
     
         .contact-par {
-            padding-top: 50px;
+            padding-top: 10px;
             display: list-item;
         }
     
@@ -535,12 +527,13 @@ header nav ul li a {
     
         .section-title {
             border: none;
-            text-align: center;
+            text-align: left;
+
     
         }
         .section-title > h2 {
-            text-align: center;
             text-decoration: underline;
+            margin-left: -700px;
     
         }
 
